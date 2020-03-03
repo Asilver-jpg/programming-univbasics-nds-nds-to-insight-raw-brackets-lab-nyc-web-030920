@@ -17,6 +17,6 @@ def directors_totals(nds)
     
   end
   
-  binding.pry
+ 
 gross
 end
