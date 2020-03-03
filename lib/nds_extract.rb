@@ -10,7 +10,7 @@ def directors_totals(nds)
    
     total=0
     director[:movies].each do |arr|
-      binding.pry
+      #binding.pry
       total +=arr[:worldwide_gross]
     end
     gross[director]= total
