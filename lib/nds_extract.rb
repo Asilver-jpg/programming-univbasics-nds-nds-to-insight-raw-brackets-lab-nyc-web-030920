@@ -13,7 +13,7 @@ def directors_totals(nds)
     
       total +=arr[:worldwide_gross]
     end
-    gross[director]= total
+    gross[director[:name]]= total
     
   end
   
