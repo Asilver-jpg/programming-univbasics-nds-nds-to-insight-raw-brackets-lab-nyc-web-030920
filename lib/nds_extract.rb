@@ -4,9 +4,10 @@ require 'directors_database'
 def directors_totals(nds)
   arr= directors_database
   gross= {}
-  i=0 
-  
+ 
+ binding.pry 
   arr.each do |director| 
+    binding.pry
     total=0
     director[:movies].each do |d|
       total +=d[:worldwide_gross]
